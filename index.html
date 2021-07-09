@@ -12,15 +12,8 @@
   <body>
     <nav><img src="images/logo.svg" alt="Logo" /></nav>
     <main>
-      <div class="mainImage">
-        <img
-          src="images/hero-desktop.jpg"
-          srcset="images/hero-mobile.jpg, images/hero-desktop.jpg"
-          sizes="(max-width: 500px)"
-          alt="Girl in orange shirt"
-        />
-      </div>
-      <div class="mainContent">
+      <div id="mainImage"></div>
+      <div id="mainContent">
         <h1>
           WE'RE <br />
           <span>
@@ -33,10 +26,13 @@
           Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our
           launch deals.
         </p>
-        <form action="">
-          <input type="email" name="email" id="email" placeholder="    Email Address" />
-          <button type="button"><img src="images/icon-arrow.svg" alt="" /></button>
-        </form>
+        <div>
+          <form action="">
+            <input type="email" name="email" id="email" placeholder="    Email Address" />
+            <button type="button"><img src="images/icon-arrow.svg" alt="" /></button>
+          </form>
+          <p id="error">Please provide a valid email</p>
+        </div>
       </div>
     </main>
     <footer>
