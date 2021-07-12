@@ -2,7 +2,7 @@
 
 ## To see the live site follow the link below:
 
-soon
+https://olundir.github.io/BaseApparelLandingPage/
 
 ### Project done as part of the FrontEnd Mentor Challanges
 
