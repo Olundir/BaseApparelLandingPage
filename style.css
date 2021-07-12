@@ -95,7 +95,6 @@ form {
 }
 
 #error {
-  visibility: hidden;
   padding: 5px 0 0 0;
   margin: 0;
   font-size: 0.75rem;
@@ -103,6 +102,9 @@ form {
   right: 45px;
   color: hsl(0, 93%, 68%);
   font-weight: 400;
+}
+.errorHide {
+  visibility: hidden;
 }
 
 @media (min-width: 900px) {
